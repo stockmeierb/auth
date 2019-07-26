@@ -38,6 +38,38 @@
 			<key>uniqueIdentifier</key>
 			<string>0E56F528-05E6-43B9-A0CC-2019BE3916DE</string>
 		</dict>
+		<key>3D912BA4-D8B7-422E-84D6-6EA4D94CCF65</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3D912BA4-D8B7-422E-84D6-6EA4D94CCF65.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>auth project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>auth</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace auth with scheme auth and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>585786757.80548894</real>
+			<key>timeStoppedRecording</key>
+			<real>585786908.83250201</real>
+			<key>title</key>
+			<string>Building workspace auth with scheme auth and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>3D912BA4-D8B7-422E-84D6-6EA4D94CCF65</string>
+		</dict>
 	</dict>
 </dict>
 </plist>

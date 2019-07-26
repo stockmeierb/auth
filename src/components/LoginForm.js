@@ -1,13 +1,17 @@
 import React, { Component } from "react";
-import { View } from "react-native";
+import { View, TextInput } from "react-native";
 import { Button, Card, CardItem } from "./common";
 
 class LoginForm extends Component {
   render() {
     return (
       <Card>
-        <CardItem></CardItem>
-        <CardItem></CardItem>
+        <CardItem>
+          <TextInput style={{ height: 20, width: 100 }} />
+        </CardItem>
+        <CardItem>
+          <TextInput style={{ height: 20, width: 100 }} />
+        </CardItem>
 
         <CardItem>
           <Button>Log In</Button>
