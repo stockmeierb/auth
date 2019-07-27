@@ -3,14 +3,24 @@ import { TextInput } from "react-native";
 import { Button, Card, CardItem } from "./common";
 
 class LoginForm extends Component {
+  state = { text: "" };
+
   render() {
     return (
       <Card>
         <CardItem>
-          <TextInput style={{ height: 20, width: 100 }} />
+          <TextInput
+            value={this.state.text}
+            onChangeText={text => this.setState({ text })}
+            style={{ height: 20, width: 100 }}
+          />
         </CardItem>
         <CardItem>
-          <TextInput style={{ height: 20, width: 100 }} />
+          <TextInput
+            value={this.state.text}
+            onChangeText={text => this.setState({ text })}
+            style={{ height: 20, width: 100 }}
+          />
         </CardItem>
 
         <CardItem>
