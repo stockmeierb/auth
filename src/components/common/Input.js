@@ -6,12 +6,7 @@ const Input = ({ label, value, onChangeText }) => {
   return (
     <View style={containerStyle}>
       <Text style={labelStyle}> {label} </Text>
-      <TextInput
-        style={inputStyle}
-        value={value}
-        onChangeText={onChangeText}
-        style={{ height: 20, width: 100 }}
-      />
+      <TextInput style={inputStyle} value={value} onChangeText={onChangeText} />
     </View>
   );
 };
