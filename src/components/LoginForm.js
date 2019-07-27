@@ -14,12 +14,7 @@ class LoginForm extends Component {
             label="Email"
           />
         </CardItem>
-        <CardItem>
-          <Input
-            value={this.state.text}
-            onChangeText={text => this.setState({ text })}
-          />
-        </CardItem>
+        <CardItem></CardItem>
 
         <CardItem>
           <Button>Log In</Button>
