@@ -18,14 +18,16 @@ class LoginForm extends Component {
           .auth()
           .createUserWithEmailAndPassword(email, password)
           .then(this.onLoginSuccess.bind(this))
-          .catch(() => {
-            this.setState({ error: "Authentication failed." });
-          });
+          .catch(this.onLoginFail.bind(this));
       });
   }
 
   onLoginSuccess() {
     this.setState({ email: "", password: "", error: "", loading: false });
+  }
+
+  onLoginFail() {
+    this.setState({ error: "Authentication failed.", loading: false });
   }
 
   renderButton() {
