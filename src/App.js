@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { View, Text } from "react-native";
+import { View } from "react-native";
 import firebase from "firebase";
-import { Header } from "./components/common";
+import { Header, Button } from "./components/common";
 import LoginForm from "./components/LoginForm";
 
 class App extends Component {
@@ -25,11 +25,18 @@ class App extends Component {
       }
     });
   }
+
+  renderContent() {
+    if (this.state.loggedIn) {
+      return <Button>Log out</Button>;
+    }
+    return <LoginForm />;
+  }
   render() {
     return (
       <View>
         <Header headerText="Authentication!!!" />
-        <LoginForm />
+        {this.renderContent()}
       </View>
     );
   }
