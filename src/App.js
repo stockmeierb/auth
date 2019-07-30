@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { View } from "react-native";
 import firebase from "firebase";
-import { Header, Button, Spinner } from "./components/common";
+import { Header, Button, Spinner, Card, CardItem } from "./components/common";
 import LoginForm from "./components/LoginForm";
 
 class App extends Component {
@@ -45,5 +45,13 @@ class App extends Component {
     );
   }
 }
+
+const styles = {
+  spinnerStyle: {
+    height: "100%",
+    alignItems: "center",
+    justifyContent: "center"
+  }
+};
 
 export default App;
