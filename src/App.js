@@ -40,7 +40,7 @@ class App extends Component {
         return <LoginForm />;
       default:
         return (
-          <View syle={styles.spinnerStyle}>
+          <View style={styles.spinnerStyle}>
             <Spinner size={"large"} />
           </View>
         );

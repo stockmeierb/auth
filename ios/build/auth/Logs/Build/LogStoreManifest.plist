@@ -6,38 +6,6 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>3D912BA4-D8B7-422E-84D6-6EA4D94CCF65</key>
-		<dict>
-			<key>className</key>
-			<string>IDECommandLineBuildLog</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>3D912BA4-D8B7-422E-84D6-6EA4D94CCF65.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>auth project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>auth</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Building workspace auth with scheme auth and configuration Debug</string>
-			<key>timeStartedRecording</key>
-			<real>585786757.80548894</real>
-			<key>timeStoppedRecording</key>
-			<real>585786908.83250201</real>
-			<key>title</key>
-			<string>Building workspace auth with scheme auth and configuration Debug</string>
-			<key>uniqueIdentifier</key>
-			<string>3D912BA4-D8B7-422E-84D6-6EA4D94CCF65</string>
-		</dict>
 		<key>EF5EF0E0-CBCA-48BD-BC4F-2AF763A83B11</key>
 		<dict>
 			<key>className</key>
@@ -69,6 +37,38 @@
 			<string>Building workspace auth with scheme auth and configuration Debug</string>
 			<key>uniqueIdentifier</key>
 			<string>EF5EF0E0-CBCA-48BD-BC4F-2AF763A83B11</string>
+		</dict>
+		<key>F59C9F2E-BB0F-43D4-820E-FC645C0F3931</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F59C9F2E-BB0F-43D4-820E-FC645C0F3931.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>auth project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>auth</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace auth with scheme auth and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>586306254.017272</real>
+			<key>timeStoppedRecording</key>
+			<real>586306257.18878698</real>
+			<key>title</key>
+			<string>Building workspace auth with scheme auth and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>F59C9F2E-BB0F-43D4-820E-FC645C0F3931</string>
 		</dict>
 	</dict>
 </dict>
