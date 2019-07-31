@@ -32,7 +32,7 @@ class App extends Component {
         return (
           <Card>
             <CardItem>
-              <Button>Log out</Button>
+              <Button onPress={() => firebase.auth().signOut()}>Log out</Button>
             </CardItem>
           </Card>
         );
