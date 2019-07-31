@@ -29,11 +29,21 @@ class App extends Component {
   renderContent() {
     switch (this.state.loggedIn) {
       case true:
-        return <Button>Log out</Button>;
+        return (
+          <Card>
+            <CardItem>
+              <Button>Log out</Button>
+            </CardItem>
+          </Card>
+        );
       case false:
         return <LoginForm />;
       default:
-        return <Spinner size={"large"} />;
+        return (
+          <View syle={styles.spinnerStyle}>
+            <Spinner size={"large"} />
+          </View>
+        );
     }
   }
   render() {
